@@ -1,0 +1,65 @@
+/* Form container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  /* Form fields */
+  .form-container input[type=text],
+  .form-container input[type=password],
+  .form-container input[type=email],
+  .form-container input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button */
+  .form-container .button {
+    background-color: #7e0e4f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    font-size: 100%;
+    text-align: center;
+    
+    
+  }
+  
+  /* Button hover effect */
+  .form-container button:hover {
+    background-color: #a04591;
+  }
+  
+  /* Cancel button */
+  .form-container .cancelbtn {
+   
+    background-color: #ccc;
+  }
+  
+  /* Clear floats after the form */
+  .form-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Center the form on the page */
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
